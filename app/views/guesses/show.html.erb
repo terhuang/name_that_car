@@ -1,0 +1,14 @@
+<body>
+  <% car1 = image_tag("cars/1961_vw_karmannghia.jpg") %>
+  <% car2 = image_tag("cars/1977_toyota_corolla.jpg") %>
+  <% car3 = image_tag("cars/1982_honda_civic.jpg") %>
+  
+  <% cars_array = [car1, car2, car3] %>
+
+  <%= cars_array.sample %>
+  <p>Hi let's play the Name That Car game!</p>
+
+
+  <input type="email" placeholder="your email">
+  <input type="submit">
+</body>
